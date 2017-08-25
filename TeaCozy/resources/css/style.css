@@ -1,0 +1,180 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  margin: 0px;
+
+}
+
+header {
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding: 0px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  margin-top: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  padding-top: 10px;
+}
+
+span {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+#content {
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.first
+{
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  align-items: center;
+
+}
+.mission {
+  background-color: black;
+  height: 150px;
+  width: 1200px;
+}
+
+.second {
+  flex-wrap: wrap;
+  width: 1000px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.second h2 {
+  margin-top: 70px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin: 0px 15px 10px 15px;
+}
+
+.description {
+  margin-top: 0px;
+
+}
+
+.question {
+  width: 100%;
+  margin: 70px auto 15px auto;
+  align-items: center;
+  align-content: center;
+}
+
+.question h2, .question h4 {
+  display: block;
+  margin: 10px auto;
+}
+
+.third {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.third h2 {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  height: 270px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-around;
+  opacity: 1;
+  padding: 10px 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.location h2 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.location h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  align-items: center;
+  width: 100%;
+}
+
+.end {
+  flex-grow: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  margin-top: 10px;
+}
+.end h5, .end h2 {
+  margin: 0px;
+}
+
+.copy {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.copy h5 {
+  margin-left: 20px;
+}
+
+#content, .second, .question, .third {
+  justify-content: center;
+}
+
+.question, .location, footer, .end {
+  flex-direction: column;
+}
+
+.first, .third {
+  background-color: dimgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
